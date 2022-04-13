@@ -41,12 +41,10 @@ nav {
   height: 27.5px;
 }
 
-
 .nav-links {
   list-style: none;
   display: flex;
 }
-
 
 .nav-button a {
   display: inline-block;
