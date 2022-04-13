@@ -1,8 +1,9 @@
-import "./content.css"
+
+import styles from "../../styles/Content.module.css"
 
 const Title = (props: any) => {
   return (
-    <div className="title">
+    <div className={styles.title}>
       {props.text}
       <br></br>
       --

@@ -1,18 +1,19 @@
-import "./content.css";
+
+import styles from "../../styles/Content.module.css"
 
 const Pargraph = (props: any) => {
   return (
-    <div className="paragraph">
+    <div className={styles.paragraph}>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus{" "}
-        <span className="accent">imperdiet</span> diam, quis sodales felis iaculis
+        <span className={styles.accent}>imperdiet</span> diam, quis sodales felis iaculis
         at. Suspendisse sed accumsan tellus. Ut imperdiet ante ut venenatis
         aliquam. Ut finibus cursus finibus. Nam faucibus venenatis tempus.
-        Curabitur elementum <span className="accent">dignissim</span> leo, a
+        Curabitur elementum <span className={styles.accent}>dignissim</span> leo, a
         tristique lorem. Pellentesque vulputate vitae ligula nec vestibulum.
         Pellentesque tincidunt diam vitae pharetra iaculis. Mauris ac aliquet
         metus. Nulla lectus nisl, lobortis in aliquet eget, vestibulum non
-        neque. <span className="accent">Pellentesque</span> est ante, facilisis nec
+        neque. <span className={styles.accent}>Pellentesque</span> est ante, facilisis nec
         ipsum sit amet, auctor tempus elit. Morbi fermentum imperdiet arcu, id
         facilisis orci fringilla sit amet. Maecenas at molestie velit.{" "}
       </p>

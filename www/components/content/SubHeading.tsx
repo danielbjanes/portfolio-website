@@ -1,8 +1,9 @@
-import "./content.css"
+
+import styles from "../../styles/Content.module.css"
 
 const SubHeading = (props: any) => {
   return (
-    <div className="sub-heading">
+    <div className={styles.sub_heading}>
       {props.text}
       <br></br>
       --

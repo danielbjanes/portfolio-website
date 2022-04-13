@@ -1,11 +1,11 @@
 import Title from "./Title";
-import "./content.css";
+import styles from "../../styles/Content.module.css"
 import SubHeading from "./SubHeading";
 import Pargraph from "./Paragraph";
 
 function Content() {
   return (
-    <div className="content">
+    <div className={styles.content}>
       <Title text={"Title"} />
       <Pargraph />
       <SubHeading text={"Sub Heading"} />
