@@ -51,6 +51,12 @@
         ---
       </div>
 
+      <div id="heading1" class="heading">
+        Sub-Heading 1
+        <br>
+        ---
+      </div>
+
       <div class="content">
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus <span class="accent">imperdiet</span> diam, quis sodales felis iaculis at. Suspendisse sed accumsan tellus. Ut imperdiet ante ut venenatis aliquam. Ut finibus cursus finibus. Nam faucibus venenatis tempus. Curabitur elementum <span class="accent">dignissim</span> leo, a tristique lorem. Pellentesque vulputate vitae ligula nec vestibulum. Pellentesque tincidunt diam vitae pharetra iaculis. Mauris ac aliquet metus. Nulla lectus nisl, lobortis in aliquet eget, vestibulum non neque. <span class="accent">Pellentesque</span> est ante, facilisis nec ipsum sit amet, auctor tempus elit. Morbi fermentum imperdiet arcu, id facilisis orci fringilla sit amet. Maecenas at molestie velit. </p>
@@ -106,28 +112,29 @@
         <p>Quisque sit amet nisl hendrerit, viverra quam posuere, faucibus quam. Nullam quis sagittis leo. Donec eleifend id metus tempus ultrices. Curabitur mattis urna nec rhoncus iaculis. Proin ultrices sed dui nec aliquam. Vestibulum ut enim in sem volutpat porttitor nec vel sapien. Etiam commodo a justo at cursus. Suspendisse potenti. Nullam consequat gravida ante vel vulputate. Cras a nibh a lectus pharetra ullamcorper vel a odio. </p>
 
         <p>
-          ---</p>
-      </div>
-
+          ---
+      </p>
     </div>
 
-    <script type="text/javascript">
-      window.addEventListener('scroll', moveScrollIndicator);
-      window.addEventListener('resize', resizeScroll)
-      const scrollIndicatorElt = document.getElementById('scrollIndicator');
-      let maxHeight = window.document.body.scrollHeight - (window.innerHeight - 30);
+  </div>
 
-      function resizeScroll(e) {
-        maxHeight = window.document.body.scrollHeight - (window.innerHeight - 30);
-        moveScrollIndicator(e)
-      }
+  <script type="text/javascript">
+    window.addEventListener('scroll', moveScrollIndicator);
+    window.addEventListener('resize', resizeScroll)
+    const scrollIndicatorElt = document.getElementById('scrollIndicator');
+    let maxHeight = window.document.body.scrollHeight - (window.innerHeight - 30);
 
-      function moveScrollIndicator(e) {
-        const percentage = ((window.scrollY) / (maxHeight)) * 100;
+    function resizeScroll(e) {
+      maxHeight = window.document.body.scrollHeight - (window.innerHeight - 30);
+      moveScrollIndicator(e)
+    }
 
-        scrollIndicatorElt.style.width = percentage + '%';
-      }
-    </script>
+    function moveScrollIndicator(e) {
+      const percentage = ((window.scrollY) / (maxHeight)) * 100;
 
-  </body>
+      scrollIndicatorElt.style.width = percentage + '%';
+    }
+  </script>
+
+</body>
 </html>
