@@ -1,10 +1,14 @@
-import Content from '../components/content/Content';
+import Content from "../components/content/Content";
 
-import type { NextPage } from 'next'
+import type { NextPage } from "next";
+import NavBar from "../components/navbar/NavBar";
 const Home: NextPage = () => {
   return (
-    <Content />
-  )
-}
+    <div>
+      <NavBar />
+      <Content />
+    </div>
+  );
+};
 
-export default Home
+export default Home;

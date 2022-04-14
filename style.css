@@ -38,7 +38,7 @@ nav {
 .nav-icon img {
   vertical-align: middle;
   width: 33.35px;
-  height: 27.5px;
+  height: 33.35px;
 }
 
 .nav-links {
@@ -75,7 +75,7 @@ nav {
 }
 
 
-/* body {
+body {
   letter-spacing: 0.1px;
   padding: 0;
   margin: 0;
@@ -87,7 +87,7 @@ nav {
 }
 
 
-page => content
+/* page => content */
 .page {
   max-width: 900px;
   padding-top: 0px;
@@ -104,7 +104,7 @@ page => content
   color: #FFF;
 }
 
-heading => sub-heading
+/* heading => sub-heading */
 .heading {
   display: inline-block;
   margin-bottom: 20px;
@@ -114,7 +114,7 @@ heading => sub-heading
   scroll-margin-block-end: 75px;
 }
 
-content => paragraph
+/* content => paragraph */
 .content {
   max-width: 900px;
   margin-bottom: 20px;
@@ -129,4 +129,4 @@ p {
 
 span.accent {
   color: #e91d63;
-} */
+}

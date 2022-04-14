@@ -1,5 +1,5 @@
 
-import styles from "../../styles/Content.module.css"
+import styles from "./Content.module.css"
 
 const Title = (props: any) => {
   return (

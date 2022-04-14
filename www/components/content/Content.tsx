@@ -1,5 +1,5 @@
 import Title from "./Title";
-import styles from "../../styles/Content.module.css"
+import styles from "./Content.module.css"
 import SubHeading from "./SubHeading";
 import Pargraph from "./Paragraph";
 
@@ -8,7 +8,6 @@ function Content() {
     <div className={styles.content}>
       <Title text={"Title"} />
       <Pargraph />
-      <SubHeading text={"Sub Heading"} />
     </div>
   );
 }
